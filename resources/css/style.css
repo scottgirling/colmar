@@ -1,0 +1,21 @@
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#nav {
+    height: 64px;
+    display: flex;
+}
+
+img {
+    margin-left: 24px;
+}
+
+#colmar {
+    height: 32px;
+}
+
+#academy {
+    color: gray;
+}
