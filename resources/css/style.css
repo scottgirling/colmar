@@ -17,5 +17,43 @@ img {
 }
 
 #academy {
-    color: gray;
+    color: lightgray;
+}
+
+/* learn something new everyday section */
+
+#learn-something-new {
+    background-color: lightgray;
+    display: flex;
+}
+
+#learn-something-new img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#text {
+    margin-left: 24px;
+    margin: auto;
+    color: #404040;
+}
+
+#text h1 {
+    font-size: 56px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#text h2 {
+    font-size: 30px;
+}
+
+#start-here {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    padding: 8px 0;
+    font-weight: 100;
 }
