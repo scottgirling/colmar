@@ -90,7 +90,6 @@ img {
 #container-left img {
     width: 100%;
     margin: 32px 24px;
-    border: 1px solid black;
 }
 
 #keep-practicing-text {
@@ -120,13 +119,13 @@ img {
     width: 35%;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 75px;
     border-left: 1px solid gray;
 }
 
 #container-right img {
     margin: 16px;
-    width: 85%;
+    width: 75%;
 }
 
 #box1 {
@@ -165,4 +164,89 @@ img {
 .readmore {
     color: blue;
     margin: 0;
+}
+
+/* start learning section */
+
+#start-learning {
+    background-color: lightgray;
+    color: #404040;
+}
+
+#start-learning-title {
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+#start-learning-title h1 {
+    font-size: 44px;
+    margin: 32px 0;
+}
+
+#courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 72px;
+}
+
+#courses img {
+    margin: 0;
+    width: 400px;
+}
+
+#courses h4 {
+    font-size: 28px;
+    margin: 16px 0;
+}
+
+.courses {
+    font-size: 20px;
+    margin: 8px 0;
+    color: gray;
+}
+
+.description {
+    font-size: 20px;
+    color: gray;
+}
+
+#courses h4, #courses p {
+    margin: 8px 24px;
+}
+
+#software-engineering {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+#computer-art {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+#design {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+#data {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+#business {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+#marketing {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
 }
