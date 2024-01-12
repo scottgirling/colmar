@@ -1,6 +1,9 @@
+/* universal styles */
+
 body {
     font-size: 12px;
     font-family: sans-serif;
+    color: #404040;
 }
 
 #nav {
@@ -209,6 +212,7 @@ img {
 .description {
     font-size: 20px;
     color: gray;
+    margin-bottom: 24px !important;
 }
 
 #courses h4, #courses p {
@@ -249,4 +253,109 @@ img {
     background-color: white;
     max-width: 400px;
     margin-bottom: 32px;
+}
+
+/* thesis exhibit section */
+
+#thesis-exhibit-containers {
+    display: flex;
+}
+
+#thesis-exhibit-title h1 {
+    font-size: 48px;
+    color: #404040;
+    margin: 32px auto;
+    text-align: center;
+}
+
+#thesis-left-container {
+    margin: 0 24px;
+    width: 60%;
+}
+
+#thesis-left-container video {
+    width: 100%;
+}
+
+#thesis-left-container h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#thesis-left-container p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+#thesis-right-container {
+    width: 40%;
+}
+
+#top-box {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+#bottom-box {
+    display: flex;
+    align-items: center;
+}
+
+#thesis-right-container img {
+    width: 35%;
+    margin: 16px;
+}
+
+#thesis-right-container h4 {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+#thesis-right-container p {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+    #thesis-left-container p {
+        font-size: 14px;
+    }
+
+    #thesis-right-container h4 {
+        font-size: 20px;
+    }
+
+    #thesis-right-container p {
+        font-size: 14px;
+    }
+}
+
+/* footer section */
+
+footer {
+    border-top: 1px solid lightgray;
+    display: flex;
+}
+
+#footer-left {
+    margin-left: 24px;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+
+#terms-privacy li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        font-size:
+    }
 }
