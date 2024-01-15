@@ -42,6 +42,25 @@ img {
     color: lightgray;
 }
 
+#nav-small {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #nav h1 {
+        display: none;
+    }
+
+    #nav .nav-big {
+        display: none;
+    }
+
+    #nav-small {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 /* learn something new everyday section */
 
 #learn-something-new {
@@ -78,6 +97,41 @@ img {
     width: 80%;
     padding: 8px 0;
     font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) {
+    #learn-something-new {
+        display: block;
+        padding-bottom: 
+    }
+
+    #learn-something-new img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #text {
+        padding-bottom: 24px;
+    }
+
+    #text h1 {
+        margin: 32px 16px;
+        font-size: 44px;
+    }
+
+    #text h2 {
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+
+    #text h4 {
+        margin-bottom: 0;
+    }
+
+    #start-here {
+        margin: 24px auto;
+        width: 92%;
+    }
 }
 
 /* keep practicing section */
@@ -137,6 +191,10 @@ img {
     margin-top: 14px;
 }
 
+.image-small {
+    display: none;
+}
+
 #box1-text, #box2-text, #box3-text {
     margin: auto;
     width: 65%;
@@ -169,6 +227,86 @@ img {
     margin: 0;
 }
 
+@media only screen and (max-width: 500px) {
+    #container-left {
+        display: none;
+    }
+
+    #container-right {
+        width: 90%;
+        border-left: none;
+        margin: auto;
+    }
+
+    #container-right img {
+        margin: 0;
+    }
+
+    #box1 {
+        display: block;
+        border-bottom: none;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    #box1 img {
+        display: none;
+    }
+
+    #box1 .image-small {
+        display: block;
+        width: 100%;
+    }
+
+    #box1-text {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+
+    #box2 {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    #box2 img {
+        display: none;
+    }
+
+    #box2 .image-small {
+        display: block;
+        width: 100%;
+    }
+
+    #box2-text {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+
+    #box3 {
+        display: block;
+        background-color: white;
+        margin-bottom: 32px;
+    }
+
+    #box3 img {
+        display: none;
+    }
+
+    #box3 .image-small {
+        display: block;
+        width: 100%;
+    }
+
+    #box3-text {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+
+    .readmore {
+        font-size: 14px;
+    }
+}
+
 /* start learning section */
 
 #start-learning {
@@ -182,7 +320,7 @@ img {
 }
 
 #start-learning-title h1 {
-    font-size: 44px;
+    font-size: 48px;
     margin: 32px 0;
 }
 
@@ -255,6 +393,61 @@ img {
     margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 500px) {
+    #start-learning {
+        background-color: white;
+        border-top: 1px solid lightgray;
+    }
+
+    #start-learning-title {
+        border: none;
+    }
+
+    #start-learning-title h1 {
+        margin-bottom: 16px;
+    }
+
+    #courses {
+        display: block;
+        margin: 0;
+    }
+
+    #courses img, #courses p {
+        display: none;
+    }
+
+    #courses h4 {
+        background-color: lightgray;
+        padding: 24px 16px;
+        width: 108%;
+        margin: 0;
+    }
+
+    #software-engineering {
+        margin-bottom: 8px;
+    }
+
+    #computer-art {
+        margin-bottom: 8px;
+    }
+
+    #design {
+        margin-bottom: 8px;
+    }
+
+    #data {
+        margin-bottom: 8px;
+    }
+
+    #business {
+        margin-bottom: 8px;
+    }
+
+    #marketing {
+        margin-bottom: 32px;
+    }
+}
+
 /* thesis exhibit section */
 
 #thesis-exhibit-containers {
@@ -319,16 +512,23 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-    #thesis-left-container p {
-        font-size: 14px;
+    #thesis-right-container  {
+        display: none;
     }
 
-    #thesis-right-container h4 {
-        font-size: 20px;
+    #thesis-left-container {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 24px;
     }
 
-    #thesis-right-container p {
-        font-size: 14px;
+    #thesis-left-container h1, #thesis-left-container p {
+        display: none;
+    }
+
+    #thesis-exhibit-title h1 {
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
 }
 
@@ -354,8 +554,23 @@ footer {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     footer {
-        font-size:
+        border-top: none;
+    }
+
+    #footer-left {
+        width: 100%;
+        margin-left: 
+    }
+
+    #footer-left p {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    #footer-right {
+        display: none;
     }
 }
