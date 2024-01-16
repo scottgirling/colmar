@@ -99,6 +99,12 @@ img {
     font-weight: 100;
 }
 
+#start-here:hover {
+    background-color: white;
+    color: #404040;
+    transition-duration: .4s;
+}
+
 @media only screen and (max-width: 600px) {
     #learn-something-new {
         display: block;
@@ -407,7 +413,8 @@ img {
     }
 
     #courses {
-        display: block;
+        display: flex;
+        flex-direction: column;
         margin: 0;
     }
 
@@ -417,33 +424,39 @@ img {
 
     #courses h4 {
         background-color: lightgray;
-        padding: 24px 16px;
-        width: 108%;
+        padding: 24px 16px; 
+        width: 100%;
         margin: 0;
     }
 
     #software-engineering {
         margin-bottom: 8px;
+        max-width: 93%;
     }
 
     #computer-art {
         margin-bottom: 8px;
+        max-width: 93%;
     }
 
     #design {
         margin-bottom: 8px;
+        max-width: 93%;
     }
 
     #data {
         margin-bottom: 8px;
+        max-width: 93%;
     }
 
     #business {
         margin-bottom: 8px;
+        max-width: 93%;
     }
 
     #marketing {
         margin-bottom: 32px;
+        max-width: 93%;
     }
 }
 
