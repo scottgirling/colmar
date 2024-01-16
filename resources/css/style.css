@@ -46,7 +46,7 @@ img {
     display: none;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     #nav h1 {
         display: none;
     }
@@ -99,7 +99,7 @@ img {
     font-weight: 100;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     #learn-something-new {
         display: block;
         padding-bottom: 
@@ -227,7 +227,7 @@ img {
     margin: 0;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     #container-left {
         display: none;
     }
@@ -393,7 +393,7 @@ img {
     margin-bottom: 32px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     #start-learning {
         background-color: white;
         border-top: 1px solid lightgray;
@@ -511,7 +511,7 @@ img {
     font-size: 22px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     #thesis-right-container  {
         display: none;
     }
@@ -554,7 +554,7 @@ footer {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
     footer {
         border-top: none;
     }
